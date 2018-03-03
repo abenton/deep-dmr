@@ -18,9 +18,10 @@ cd deepdmr
 python test_synth.py
 ```
 
-Synthetic data can be found under *test/data/*, model runs can be found under *test/runs/*, and
-plots under *test/plots/*.  The synthetic data is saved in compressed numpy format -- format
-can be grokked by inspecting this file.  Relevant fields are:
+Synthetic data can be found under *test_output/data/*, model runs can be found under
+*test_output/runs/*, and plots under *test_output/plots/*.  The synthetic data is saved
+in compressed numpy format -- format can be grokked by inspecting this file.  Relevant
+fields are:
 
 - *Ds_body*: integer array for document indices
 - *Ws_body*: integer array for token indices
