@@ -1,7 +1,7 @@
 # deep-dmr
 Implementation of Deep Dirichlet Multinomial Regression in Python 3 with Cython Gibbs sampler.
 
-The Gibbs sampler was built from that the cython implementation here: <https://github.com/lda-project/lda>.
+The Gibbs sampler was built from that the Cython implementation here: <https://github.com/lda-project/lda>.
 Current Gibbs sampler supports asymmetric priors.
 
 ## Build ##
@@ -29,7 +29,7 @@ fields are:
 - *annotation_names*: list of different annotation names associated with each document
 - *annotation_dicts*: maps annotation name to an index-to-feature name dictionary
 - *annotations*: dictionary of model parameters along with document supervision.
-  In the synthetic data, the document-level supervision is in "descriptor".
+  In the synthetic data, the document-level supervision is under the "descriptor" field.
 
 ## Contact Information ##
 
